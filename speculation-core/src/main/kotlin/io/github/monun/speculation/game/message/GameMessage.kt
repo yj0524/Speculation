@@ -1,0 +1,21 @@
+package io.github.monun.speculation.game.message
+
+enum class GameMessage {
+    ROLL_THE_DICE,
+    ACQUISITION,
+    UPGRADE,
+    SEIZURE,
+    BETTING,
+    ROLL_THE_DICE_FOR_GAMBLE,
+    ZONE_FOR_PORTAL,
+    TAX,
+    PIECE_FOR_PUSH,
+    ZONE_FOR_OVERPRICE,
+    PIECE_FOR_GIFT_PROPERTY,
+    ZONE_FOR_GIFT_PROPERTY,
+    ROLL_THE_DICE_FOR_MOONWALK,
+    ZONE_FOR_EARTHQUAKE,
+    MAGIC,
+    PIECE_FOR_CHASE,
+
+}
