@@ -1,4 +1,4 @@
-# 부동산 투기 보드게임
+# Speculation (Paper 1.17.1)
 
 ### 실행 환경
 
@@ -7,8 +7,8 @@
 
 ### 서버 열기
 
-1. 소스코드 다운로드
-2. cmd에 java -jar -Xmx[메모리 용량 (기가바이트)]G "./run/paper-1.17.1.jar" 입력
+1. [Server.zip](https://github.com/yj0524/Speculation/releases/latest/download/Server.zip) 다운로드
+2. cmd에 java -jar -Xmx[메모리 용량 (기가바이트)]G "./paper-1.17.1.jar" 입력
     * run 폴더 안에 있는 run-linux.sh 또는 run-windows.bat 파일을 실행시켜도 됩니다.
 3. 서버 접속
 4. 팀 선택 `/team join <team> <player>`
@@ -16,7 +16,7 @@
     * 예) 개인전 - `/speculation start world @a false`
     * 예) 팀전 - `/speculation start world @a true`
 
-- 선택) 리소스팩 - `/speculation resourcepack`
+- 선택) [리소스팩](https://github.com/yj0524/Speculation/releases/latest/download/speculation.zip) - `/speculation resourcepack`
   - 로컬에서 리소스팩을 미리 적용 시키지 않았다면 서버 접속 이전에 "서버 리소스팩" 설정을 허용으로 변경하시는 것을 권장합니다.
 
 --- 
